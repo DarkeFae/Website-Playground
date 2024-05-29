@@ -1,0 +1,31 @@
+body {
+	background-color: #2d2a2d;
+	color: var(--color-darke);
+}
+
+.navbar-brand {
+	color: inherit;
+	padding-left: 1em;
+}
+
+.navbar {
+	background-color: #232426;
+}
+
+
+
+
+
+
+
+[data-bs-theme="darke"] {
+	--darke-color: 45, 53, 61;
+	--background-darke: rgba(var(--darke-color), 0.5);
+	--color-darke: #696969;
+}
+
+[data-bs-theme="light"] {
+	--darke-color: 45, 53, 61;
+	--background-darke: rgba(var(--darke-color), 0.5);
+	--color-darke: black;
+}
